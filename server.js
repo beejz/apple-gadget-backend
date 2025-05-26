@@ -6,7 +6,7 @@ const connectDB = require('./config/db');
 const productRoutes = require('./routes/productRoutes');
 const userRoutes    = require('./routes/userRoutes');
 
-// Inspect exports
+
 console.log('productRoutes is:', typeof productRoutes);
 console.log('userRoutes    is:', typeof userRoutes);
 
